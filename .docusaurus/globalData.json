@@ -1,0 +1,68 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started",
+          "docs": [
+            {
+              "id": "coverage",
+              "path": "/docs/coverage",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "duplicated-assets-guide/add-new-file",
+              "path": "/docs/duplicated-assets-guide/add-new-file",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "duplicated-assets-guide/already-exists",
+              "path": "/docs/duplicated-assets-guide/already-exists",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "how-do-it-work",
+              "path": "/docs/how-do-it-work",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "icon-build",
+              "path": "/docs/icon-build",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "static-build",
+              "path": "/docs/static-build",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/duplicated-assets-guide",
+              "path": "/docs/category/duplicated-assets-guide",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/docs/getting-started",
+                "label": "getting-started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

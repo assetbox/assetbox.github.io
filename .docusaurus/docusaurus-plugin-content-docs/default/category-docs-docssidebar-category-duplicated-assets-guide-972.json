@@ -1,0 +1,16 @@
+{
+  "title": "Duplicated Assets Guide",
+  "description": "5 minutes to learn the most important Docusaurus concepts.",
+  "slug": "/category/duplicated-assets-guide",
+  "permalink": "/docs/category/duplicated-assets-guide",
+  "navigation": {
+    "previous": {
+      "title": "Getting Started",
+      "permalink": "/docs/getting-started"
+    },
+    "next": {
+      "title": "Already Exists",
+      "permalink": "/docs/duplicated-assets-guide/already-exists"
+    }
+  }
+}

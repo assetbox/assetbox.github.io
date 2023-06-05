@@ -1,0 +1,27 @@
+{
+  "unversionedId": "icon-build",
+  "id": "icon-build",
+  "title": "Icon Build",
+  "description": "Under development",
+  "source": "@site/docs/icon-build.md",
+  "sourceDirName": ".",
+  "slug": "/icon-build",
+  "permalink": "/docs/icon-build",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/icon-build.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Static Build",
+    "permalink": "/docs/static-build"
+  },
+  "next": {
+    "title": "Coverage",
+    "permalink": "/docs/coverage"
+  }
+}

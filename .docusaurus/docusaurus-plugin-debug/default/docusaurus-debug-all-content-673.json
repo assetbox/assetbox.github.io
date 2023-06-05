@@ -1,0 +1,289 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/sungyu/Desktop/assetbox.github.io/sidebars.js",
+          "contentPath": "/Users/sungyu/Desktop/assetbox.github.io/docs",
+          "contentPathLocalized": "/Users/sungyu/Desktop/assetbox.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "coverage",
+              "id": "coverage",
+              "title": "Coverage",
+              "description": "Used Coverage quantifies whether all assets are used.",
+              "source": "@site/docs/coverage.md",
+              "sourceDirName": ".",
+              "slug": "/coverage",
+              "permalink": "/docs/coverage",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/coverage.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "docsSidebar",
+              "previous": {
+                "title": "Icon Build",
+                "permalink": "/docs/icon-build"
+              },
+              "next": {
+                "title": "How does it work ?",
+                "permalink": "/docs/how-do-it-work"
+              }
+            },
+            {
+              "unversionedId": "duplicated-assets-guide/add-new-file",
+              "id": "duplicated-assets-guide/add-new-file",
+              "title": "Add New File",
+              "description": "Under development",
+              "source": "@site/docs/duplicated-assets-guide/add-new-file.md",
+              "sourceDirName": "duplicated-assets-guide",
+              "slug": "/duplicated-assets-guide/add-new-file",
+              "permalink": "/docs/duplicated-assets-guide/add-new-file",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/duplicated-assets-guide/add-new-file.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "docsSidebar",
+              "previous": {
+                "title": "Already Exists",
+                "permalink": "/docs/duplicated-assets-guide/already-exists"
+              },
+              "next": {
+                "title": "Static Build",
+                "permalink": "/docs/static-build"
+              }
+            },
+            {
+              "unversionedId": "duplicated-assets-guide/already-exists",
+              "id": "duplicated-assets-guide/already-exists",
+              "title": "Already Exists",
+              "description": "Under development",
+              "source": "@site/docs/duplicated-assets-guide/already-exists.md",
+              "sourceDirName": "duplicated-assets-guide",
+              "slug": "/duplicated-assets-guide/already-exists",
+              "permalink": "/docs/duplicated-assets-guide/already-exists",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/duplicated-assets-guide/already-exists.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docsSidebar",
+              "previous": {
+                "title": "Duplicated Assets Guide",
+                "permalink": "/docs/category/duplicated-assets-guide"
+              },
+              "next": {
+                "title": "Add New File",
+                "permalink": "/docs/duplicated-assets-guide/add-new-file"
+              }
+            },
+            {
+              "unversionedId": "getting-started",
+              "id": "getting-started",
+              "title": "Getting Started",
+              "description": "AssetBox provides a visualization of the asset based on your front-end repository. It also provides a way to efficiently manage within a project by analyzing redundant management and the assets in use.",
+              "source": "@site/docs/getting-started.md",
+              "sourceDirName": ".",
+              "slug": "/getting-started",
+              "permalink": "/docs/getting-started",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "docsSidebar",
+              "next": {
+                "title": "Duplicated Assets Guide",
+                "permalink": "/docs/category/duplicated-assets-guide"
+              }
+            },
+            {
+              "unversionedId": "how-do-it-work",
+              "id": "how-do-it-work",
+              "title": "How does it work ?",
+              "description": "How does where an asset is being used work?",
+              "source": "@site/docs/how-do-it-work.md",
+              "sourceDirName": ".",
+              "slug": "/how-do-it-work",
+              "permalink": "/docs/how-do-it-work",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/how-do-it-work.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "docsSidebar",
+              "previous": {
+                "title": "Coverage",
+                "permalink": "/docs/coverage"
+              }
+            },
+            {
+              "unversionedId": "icon-build",
+              "id": "icon-build",
+              "title": "Icon Build",
+              "description": "Under development",
+              "source": "@site/docs/icon-build.md",
+              "sourceDirName": ".",
+              "slug": "/icon-build",
+              "permalink": "/docs/icon-build",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/icon-build.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "docsSidebar",
+              "previous": {
+                "title": "Static Build",
+                "permalink": "/docs/static-build"
+              },
+              "next": {
+                "title": "Coverage",
+                "permalink": "/docs/coverage"
+              }
+            },
+            {
+              "unversionedId": "static-build",
+              "id": "static-build",
+              "title": "Static Build",
+              "description": "Deploying static files in places such as s3 allows designers and developers to share the asset that exists in the project. It's like an in-house icon viewer.",
+              "source": "@site/docs/static-build.md",
+              "sourceDirName": ".",
+              "slug": "/static-build",
+              "permalink": "/docs/static-build",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/static-build.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "docsSidebar",
+              "previous": {
+                "title": "Add New File",
+                "permalink": "/docs/duplicated-assets-guide/add-new-file"
+              },
+              "next": {
+                "title": "Icon Build",
+                "permalink": "/docs/icon-build"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docsSidebar": [
+              {
+                "type": "doc",
+                "id": "getting-started"
+              },
+              {
+                "type": "category",
+                "label": "Duplicated Assets Guide",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "duplicated-assets-guide/already-exists"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "duplicated-assets-guide/add-new-file"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "5 minutes to learn the most important Docusaurus concepts.",
+                  "slug": "/category/duplicated-assets-guide",
+                  "permalink": "/docs/category/duplicated-assets-guide"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "static-build"
+              },
+              {
+                "type": "doc",
+                "id": "icon-build"
+              },
+              {
+                "type": "doc",
+                "id": "coverage"
+              },
+              {
+                "type": "doc",
+                "id": "how-do-it-work"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-tailwindcss": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}
