@@ -43,10 +43,19 @@
         "docId": "static-build"
       },
       {
-        "type": "link",
+        "type": "category",
         "label": "Icon Build",
-        "href": "/docs/icon-build",
-        "docId": "icon-build"
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "SVG to React Component",
+            "href": "/docs/icon-build/svg-to-react-component",
+            "docId": "icon-build/svg-to-react-component"
+          }
+        ],
+        "href": "/docs/category/icon-build"
       },
       {
         "type": "link",
@@ -93,10 +102,10 @@
       "description": "How does where an asset is being used work?",
       "sidebar": "docsSidebar"
     },
-    "icon-build": {
-      "id": "icon-build",
-      "title": "Icon Build",
-      "description": "Under development",
+    "icon-build/svg-to-react-component": {
+      "id": "icon-build/svg-to-react-component",
+      "title": "SVG to React Component",
+      "description": "Provides a way to create a common internal icon library.",
       "sidebar": "docsSidebar"
     },
     "static-build": {

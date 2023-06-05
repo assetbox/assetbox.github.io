@@ -38,8 +38,8 @@
               },
               "sidebar": "docsSidebar",
               "previous": {
-                "title": "Icon Build",
-                "permalink": "/docs/icon-build"
+                "title": "SVG to React Component",
+                "permalink": "/docs/icon-build/svg-to-react-component"
               },
               "next": {
                 "title": "How does it work ?",
@@ -105,12 +105,12 @@
               "id": "getting-started",
               "title": "Getting Started",
               "description": "AssetBox provides a visualization of the asset based on your front-end repository. It also provides a way to efficiently manage within a project by analyzing redundant management and the assets in use.",
-              "source": "@site/docs/getting-started.md",
+              "source": "@site/docs/getting-started.mdx",
               "sourceDirName": ".",
               "slug": "/getting-started",
               "permalink": "/docs/getting-started",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/getting-started.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -147,26 +147,26 @@
               }
             },
             {
-              "unversionedId": "icon-build",
-              "id": "icon-build",
-              "title": "Icon Build",
-              "description": "Under development",
-              "source": "@site/docs/icon-build.md",
-              "sourceDirName": ".",
-              "slug": "/icon-build",
-              "permalink": "/docs/icon-build",
+              "unversionedId": "icon-build/svg-to-react-component",
+              "id": "icon-build/svg-to-react-component",
+              "title": "SVG to React Component",
+              "description": "Provides a way to create a common internal icon library.",
+              "source": "@site/docs/icon-build/svg-to-react-component.mdx",
+              "sourceDirName": "icon-build",
+              "slug": "/icon-build/svg-to-react-component",
+              "permalink": "/docs/icon-build/svg-to-react-component",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/icon-build.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/icon-build/svg-to-react-component.mdx",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 4
+                "sidebar_position": 1
               },
               "sidebar": "docsSidebar",
               "previous": {
-                "title": "Static Build",
-                "permalink": "/docs/static-build"
+                "title": "Icon Build",
+                "permalink": "/docs/category/icon-build"
               },
               "next": {
                 "title": "Coverage",
@@ -178,12 +178,12 @@
               "id": "static-build",
               "title": "Static Build",
               "description": "Deploying static files in places such as s3 allows designers and developers to share the asset that exists in the project. It's like an in-house icon viewer.",
-              "source": "@site/docs/static-build.md",
+              "source": "@site/docs/static-build.mdx",
               "sourceDirName": ".",
               "slug": "/static-build",
               "permalink": "/docs/static-build",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/static-build.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/static-build.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -197,7 +197,7 @@
               },
               "next": {
                 "title": "Icon Build",
-                "permalink": "/docs/icon-build"
+                "permalink": "/docs/category/icon-build"
               }
             }
           ],
@@ -225,7 +225,6 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/duplicated-assets-guide",
                   "permalink": "/docs/category/duplicated-assets-guide"
                 }
@@ -235,8 +234,21 @@
                 "id": "static-build"
               },
               {
-                "type": "doc",
-                "id": "icon-build"
+                "type": "category",
+                "label": "Icon Build",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "icon-build/svg-to-react-component"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/icon-build",
+                  "permalink": "/docs/category/icon-build"
+                }
               },
               {
                 "type": "doc",

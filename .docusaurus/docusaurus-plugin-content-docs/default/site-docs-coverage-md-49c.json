@@ -17,8 +17,8 @@
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Icon Build",
-    "permalink": "/docs/icon-build"
+    "title": "SVG to React Component",
+    "permalink": "/docs/icon-build/svg-to-react-component"
   },
   "next": {
     "title": "How does it work ?",

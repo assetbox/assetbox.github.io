@@ -1,0 +1,130 @@
+---
+sidebar_position: 1
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+# Getting Started
+
+AssetBox provides a visualization of the asset based on your front-end repository. It also provides a way to efficiently manage within a project by analyzing redundant management and the assets in use.
+
+
+## Installation
+
+<Tabs>
+  <TabItem value="pnpm" label="pnpm" default>
+
+```sh
+$ pnpm install @assetbox/cli @assetbox/manager -D
+```
+
+  </TabItem>
+  <TabItem value="yarn" label="yarn">
+
+```sh
+$ yarn add @assetbox/cli @assetbox/manager -D
+```
+
+  </TabItem>
+  <TabItem value="npm" label="npm">
+
+```sh
+$ npm install @assetbox/cli @assetbox/manager --save-dev
+```
+
+  </TabItem>
+</Tabs>
+
+## Setup
+
+Create config file
+
+<Tabs>
+  <TabItem value="pnpm" label="pnpm" default>
+
+```sh
+$ pnpm assetbox init
+```
+
+  </TabItem>
+  <TabItem value="yarn" label="yarn">
+
+```sh
+$ yarn assetbox init
+```
+
+  </TabItem>
+  <TabItem value="npm" label="npm">
+
+```sh
+$ npm run assetbox init
+```
+
+  </TabItem>
+</Tabs>
+
+**Assume that you have the following folder structures.**
+* src
+  * assets/icons
+    * heart.svg
+    * fill-heart.svg
+    * ...
+  * assets/images
+    * background.png
+    * background.jpeg
+    * ...
+  * assets/animations
+    * person.json (lottie)
+    * ...
+  * ...
+
+
+```js twoslash title='assetbox.config.cjs'
+/**
+ * @type {import('@assetbox/cli').AssetBoxScheme}
+ */
+const config = {
+  categories: {
+    Icons: ["./src/assets/icons/**/*"],
+    Images: ["./public/images/**/*"],
+  },
+  trackingPaths: ["./src/**/*"],
+};
+
+module.exports = config;
+```
+
+## Usage
+
+<Tabs>
+  <TabItem value="pnpm" label="pnpm" default>
+
+```sh
+$ pnpm assetbox manage
+```
+
+  </TabItem>
+  <TabItem value="yarn" label="yarn">
+
+```sh
+$ yarn assetbox manage
+```
+
+  </TabItem>
+  <TabItem value="npm" label="npm">
+
+```sh
+$ npm run assetbox manage
+```
+
+  </TabItem>
+</Tabs>
+
+ <img
+  alt="preview"
+  src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
+  />
+
+## Publishing Packages
+

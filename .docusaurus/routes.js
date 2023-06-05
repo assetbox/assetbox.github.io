@@ -44,11 +44,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '20f'),
+    component: ComponentCreator('/docs', '94b'),
     routes: [
       {
         path: '/docs/category/duplicated-assets-guide',
         component: ComponentCreator('/docs/category/duplicated-assets-guide', '497'),
+        exact: true,
+        sidebar: "docsSidebar"
+      },
+      {
+        path: '/docs/category/icon-build',
+        component: ComponentCreator('/docs/category/icon-build', '5da'),
         exact: true,
         sidebar: "docsSidebar"
       },
@@ -72,7 +78,7 @@ export default [
       },
       {
         path: '/docs/getting-started',
-        component: ComponentCreator('/docs/getting-started', '575'),
+        component: ComponentCreator('/docs/getting-started', '8a7'),
         exact: true,
         sidebar: "docsSidebar"
       },
@@ -83,14 +89,14 @@ export default [
         sidebar: "docsSidebar"
       },
       {
-        path: '/docs/icon-build',
-        component: ComponentCreator('/docs/icon-build', '875'),
+        path: '/docs/icon-build/svg-to-react-component',
+        component: ComponentCreator('/docs/icon-build/svg-to-react-component', '5d2'),
         exact: true,
         sidebar: "docsSidebar"
       },
       {
         path: '/docs/static-build',
-        component: ComponentCreator('/docs/static-build', '63d'),
+        component: ComponentCreator('/docs/static-build', 'c55'),
         exact: true,
         sidebar: "docsSidebar"
       }

@@ -36,8 +36,8 @@
               "sidebar": "docsSidebar"
             },
             {
-              "id": "icon-build",
-              "path": "/docs/icon-build",
+              "id": "icon-build/svg-to-react-component",
+              "path": "/docs/icon-build/svg-to-react-component",
               "sidebar": "docsSidebar"
             },
             {
@@ -48,6 +48,11 @@
             {
               "id": "/category/duplicated-assets-guide",
               "path": "/docs/category/duplicated-assets-guide",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/icon-build",
+              "path": "/docs/category/icon-build",
               "sidebar": "docsSidebar"
             }
           ],
