@@ -139,12 +139,12 @@ The package.json setting is the same when it is monorepo or npm publish.
 
 ```json twoslash title='package.json'
 ...
-  "exports": {
-    ".": {
-      "require": "./dist/cjs/index.cjs",
-      "import": "./dist/esm/index.mjs"
-    }
+"exports": {
+  ".": {
+    "require": "./dist/cjs/index.cjs",
+    "import": "./dist/esm/index.mjs"
   }
+}
 ...
 ```
 

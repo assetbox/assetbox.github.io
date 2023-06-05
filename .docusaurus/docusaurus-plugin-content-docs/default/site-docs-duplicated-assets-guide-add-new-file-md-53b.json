@@ -17,8 +17,8 @@
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Already Exists",
-    "permalink": "/docs/duplicated-assets-guide/already-exists"
+    "title": "Asset that already exists",
+    "permalink": "/docs/duplicated-assets-guide/asset-that-already-exists"
   },
   "next": {
     "title": "Static Build",

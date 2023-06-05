@@ -44,7 +44,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '94b'),
+    component: ComponentCreator('/docs', 'd99'),
     routes: [
       {
         path: '/docs/category/duplicated-assets-guide',
@@ -71,8 +71,8 @@ export default [
         sidebar: "docsSidebar"
       },
       {
-        path: '/docs/duplicated-assets-guide/already-exists',
-        component: ComponentCreator('/docs/duplicated-assets-guide/already-exists', 'f2c'),
+        path: '/docs/duplicated-assets-guide/asset-that-already-exists',
+        component: ComponentCreator('/docs/duplicated-assets-guide/asset-that-already-exists', 'fd3'),
         exact: true,
         sidebar: "docsSidebar"
       },

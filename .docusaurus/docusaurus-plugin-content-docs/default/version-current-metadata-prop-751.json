@@ -23,9 +23,9 @@
         "items": [
           {
             "type": "link",
-            "label": "Already Exists",
-            "href": "/docs/duplicated-assets-guide/already-exists",
-            "docId": "duplicated-assets-guide/already-exists"
+            "label": "Asset that already exists",
+            "href": "/docs/duplicated-assets-guide/asset-that-already-exists",
+            "docId": "duplicated-assets-guide/asset-that-already-exists"
           },
           {
             "type": "link",
@@ -84,10 +84,10 @@
       "description": "Under development",
       "sidebar": "docsSidebar"
     },
-    "duplicated-assets-guide/already-exists": {
-      "id": "duplicated-assets-guide/already-exists",
-      "title": "Already Exists",
-      "description": "Under development",
+    "duplicated-assets-guide/asset-that-already-exists": {
+      "id": "duplicated-assets-guide/asset-that-already-exists",
+      "title": "Asset that already exists",
+      "description": "Duplicate management is performed by analyzing the assets that existed in the existing project.",
       "sidebar": "docsSidebar"
     },
     "getting-started": {

@@ -65,8 +65,8 @@
               },
               "sidebar": "docsSidebar",
               "previous": {
-                "title": "Already Exists",
-                "permalink": "/docs/duplicated-assets-guide/already-exists"
+                "title": "Asset that already exists",
+                "permalink": "/docs/duplicated-assets-guide/asset-that-already-exists"
               },
               "next": {
                 "title": "Static Build",
@@ -74,16 +74,16 @@
               }
             },
             {
-              "unversionedId": "duplicated-assets-guide/already-exists",
-              "id": "duplicated-assets-guide/already-exists",
-              "title": "Already Exists",
-              "description": "Under development",
-              "source": "@site/docs/duplicated-assets-guide/already-exists.md",
+              "unversionedId": "duplicated-assets-guide/asset-that-already-exists",
+              "id": "duplicated-assets-guide/asset-that-already-exists",
+              "title": "Asset that already exists",
+              "description": "Duplicate management is performed by analyzing the assets that existed in the existing project.",
+              "source": "@site/docs/duplicated-assets-guide/asset-that-already-exists.md",
               "sourceDirName": "duplicated-assets-guide",
-              "slug": "/duplicated-assets-guide/already-exists",
-              "permalink": "/docs/duplicated-assets-guide/already-exists",
+              "slug": "/duplicated-assets-guide/asset-that-already-exists",
+              "permalink": "/docs/duplicated-assets-guide/asset-that-already-exists",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/duplicated-assets-guide/already-exists.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/duplicated-assets-guide/asset-that-already-exists.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -216,7 +216,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "duplicated-assets-guide/already-exists"
+                    "id": "duplicated-assets-guide/asset-that-already-exists"
                   },
                   {
                     "type": "doc",
