@@ -1,6 +1,9 @@
 ---
 sidebar_position: 1
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 
 # Asset that already exists
 
@@ -9,16 +12,45 @@ You can check and delete things that are duplicated but have no effect on deleti
 
 
 ## Step 1
+
+<Tabs>
+  <TabItem value="pnpm" label="pnpm" default>
+
+```sh
+$ pnpm assetbox manage
+```
+
+  </TabItem>
+  <TabItem value="yarn" label="yarn">
+
+```sh
+$ yarn assetbox manage
+```
+
+  </TabItem>
+  <TabItem value="npm" label="npm">
+
+```sh
+$ npm run assetbox manage
+```
+
+  </TabItem>
+</Tabs>
+
+
+## Step 2
+Select `Duplicated Assets` in the left sidebar.  
+
 Examples of `picture.svg` and `gallery.svg` are the same files, but exist as different files.  
   
 <img width="574" alt="step-1" src="https://github.com/assetbox/assetbox.github.io/assets/41789633/fe2c1409-3263-4111-ac00-531be0c61d7d" />
 
-## Step 2
+## Step 3
 When I choose to delete `picture.svg`, I can see that it is being used by `App.tsx`, and when I hover the mouse, I can see which line is being used.  
   
 <img width="839" alt="step-2" src="https://github.com/assetbox/assetbox.github.io/assets/41789633/8546e919-a5a1-48de-b357-c3fe1efa9003" />
 
-## Step 3
+## Step 4
 When I choose to delete `gallery.svg`, I can judge that there is nothing I use. We recommend that you delete the file.
 
 <img width="391" alt="step-3" src="https://github.com/assetbox/assetbox.github.io/assets/41789633/7487fc9c-b48e-4eee-b05b-c922b2fd5e75" />
