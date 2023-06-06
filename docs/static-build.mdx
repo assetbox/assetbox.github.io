@@ -6,6 +6,26 @@ import TabItem from '@theme/TabItem';
 
 # Static Build
 
+
+## Setup
+
+```js twoslash title='assetbox.config.cjs'
+/**
+ * @type {import('@assetbox/cli').AssetBoxScheme}
+ */
+const config = {
+  ...
+  staticBuild: {
+    // This field is an optional field. Default value is `assetbox-dist`
+    outDir: "assetbox-dist", // Build Output Folder
+  },
+};
+
+module.exports = config;
+```
+
+## Usage
+
 Deploying static files in places such as s3 allows designers and developers to share the asset that exists in the project. It's like an in-house icon viewer.
 
 Create a static file in the `assetbox.config.cjs` file based on the `category`.
@@ -13,7 +33,6 @@ Build output folder is `assetbox-dist`
 
 In this case, the administrative portion is lost and replaced with read-only.
 Can be used as an icon viewer
-
 
 
 <Tabs>
@@ -39,5 +58,3 @@ $ npm run assetbox static-build
 
   </TabItem>
 </Tabs>
-
-Please deploy `assetbox-dist` as it is
