@@ -19,10 +19,10 @@ function HomepageHeader() {
             within your frontend project.
           </h1>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg bg-[#007AFF]"
             to="/docs/getting-started"
           >
-            Getting Started
+            <span className="text-white">Getting Started</span>
           </Link>
         </div>
         <img
