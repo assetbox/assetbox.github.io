@@ -19,16 +19,18 @@ function HomepageHeader() {
             within your frontend project.
           </h1>
           <Link
-            className="button button--secondary button--lg bg-[#007AFF]"
+            className="button button--secondary button--lg bg-[#007AFF] border-none"
             to="/docs/getting-started"
           >
             <span className="text-white">Getting Started</span>
           </Link>
         </div>
-        <img
-          alt="preview"
-          src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
-        />
+        <div className="shadow-2xl">
+          <img
+            alt="preview"
+            src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
+          />
+        </div>
       </div>
     </header>
   );

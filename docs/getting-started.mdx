@@ -1,14 +1,13 @@
 ---
 sidebar_position: 1
 ---
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 # Getting Started
 
 AssetBox provides a visualization of the asset based on your front-end repository. It also provides a way to efficiently manage within a project by analyzing redundant management and the assets in use.
-
 
 ## Installation
 
@@ -16,21 +15,21 @@ AssetBox provides a visualization of the asset based on your front-end repositor
   <TabItem value="pnpm" label="pnpm" default>
 
 ```sh
-$ pnpm install @assetbox/cli @assetbox/manager -D
+$ pnpm install @assetbox/cli -D
 ```
 
   </TabItem>
   <TabItem value="yarn" label="yarn">
 
 ```sh
-$ yarn add @assetbox/cli @assetbox/manager -D
+$ yarn add @assetbox/cli -D
 ```
 
   </TabItem>
   <TabItem value="npm" label="npm">
 
 ```sh
-$ npm install @assetbox/cli @assetbox/manager --save-dev
+$ npm install @assetbox/cli --save-dev
 ```
 
   </TabItem>
@@ -65,20 +64,20 @@ $ npm run assetbox init
 </Tabs>
 
 **Assume that you have the following folder structures.**
-* src
-  * assets/icons
-    * heart.svg
-    * fill-heart.svg
-    * ...
-  * assets/images
-    * background.png
-    * background.jpeg
-    * ...
-  * assets/animations
-    * person.json (lottie)
-    * ...
-  * ...
 
+- src
+  - assets/icons
+    - heart.svg
+    - fill-heart.svg
+    - ...
+  - assets/images
+    - background.png
+    - background.jpeg
+    - ...
+  - assets/animations
+    - person.json (lottie)
+    - ...
+  - ...
 
 ```js twoslash title='assetbox.config.cjs'
 /**
@@ -121,10 +120,10 @@ $ npm run assetbox manage
   </TabItem>
 </Tabs>
 
- <img
+{" "}
+<img
   alt="preview"
   src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
-  />
+/>
 
 ## Publishing Packages
-
