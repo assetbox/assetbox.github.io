@@ -12,7 +12,7 @@ function HomepageHeader() {
     <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
         <div
-          className={clsx(styles.buttons, "flex flex-col text-center mb-16")}
+          className={clsx(styles.buttons, "flex flex-col text-center mb-10")}
         >
           <h1 className="mb-8">
             Visualizes and manages icon and image files <br />
@@ -25,11 +25,36 @@ function HomepageHeader() {
             <span className="text-white">Getting Started</span>
           </Link>
         </div>
-        <div className="shadow-2xl">
-          <img
-            alt="preview"
-            src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
-          />
+        <div className="flex justify-around mb-10">
+          <div className="max-w-[300px] flex flex-col items-center justify-center p-3 border-[#007AFF] rounded-md text-center">
+            <Link to="/docs/getting-started">
+              <p className="text-lg font-bold text-[#007AFF]">Manage</p>
+            </Link>
+            <p>Manage duplicate and unused assets.</p>
+          </div>
+          <div className="max-w-[300px] flex flex-col items-center justify-center text-center">
+            <Link to="/docs/static-build">
+              <p className="text-lg font-bold text-[#007AFF]">Static Build</p>
+            </Link>
+            <p>
+              Extract the visualization page to a static file for static
+              deployment.
+            </p>
+          </div>
+          <div className="max-w-[300px] flex flex-col items-center justify-center text-center">
+            <Link to="/docs/category/icon-build">
+              <p className="text-lg font-bold text-[#007AFF]">Icon Build</p>
+            </Link>
+            <p>Convert SVG to Component code to share the icon as code.</p>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="flex-1 shadow-2xl">
+            <img
+              alt="preview"
+              src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
+            />
+          </div>
         </div>
       </div>
     </header>
