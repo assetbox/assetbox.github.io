@@ -49,12 +49,14 @@ function HomepageHeader() {
           </div>
         </div>
         <div className="flex">
-          <div className="flex-1 shadow-2xl">
-            <img
-              alt="preview"
-              src="https://user-images.githubusercontent.com/41789633/241983401-b6458ff1-f5a5-4f74-984d-f80b9dac83c2.png"
-            />
-          </div>
+          <video
+            className="w-full"
+            src="https://github.com/assetbox/assetbox.github.io/assets/41789633/dd77b14a-d76d-4305-8b39-83c105384f92"
+            autoPlay
+            muted
+            playsInline
+            loop
+          />
         </div>
       </div>
     </header>
