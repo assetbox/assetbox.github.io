@@ -27,8 +27,26 @@ Can be used as an icon viewer
 const config = {
   ...
   staticBuild: {
-    // This field is an optional field. Default value is `assetbox-dist`
-    outDir: "assetbox-dist", // Build Output Folder
+    /**
+      Build Output Folder
+
+      Default value is "assetbox-dist"
+    */
+    outDir: "assetbox-dist",
+    /**
+      base path for both static resources and routing in a web application.
+
+      Default value is "/"
+    */
+    base: "/",
+    /**
+      mode: "library" will change the asset name to camelCase.
+      clicking on the asset will copy the asset name to the clipboard.
+      Recommended for use with `icon-build`.
+
+      Default value is "app"
+    */
+    mode: "library" // or "app"
   },
 };
 
